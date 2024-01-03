@@ -1,0 +1,68 @@
+.customBtn_lessPadding {
+  border: none;
+  border-radius: 22px;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.customBtn_morePadding {
+  border: none;
+  border-radius: 30px;
+  padding-left: 5.3rem;
+  padding-right: 5.3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.contact_us {
+  font-size: 1rem;
+  display: flex;
+  justify-content: end;
+}
+
+.contactMeLogo img {
+  height: 1.7rem;
+}
+
+.customBtnHover {
+  transition: background-color 0.3s ease;
+}
+
+.customBtnHover:hover {
+  background-color: green;
+}
+
+.customBtnHover:hover .para_mb_0 {
+  color: white !important;
+}
+
+@media only screen and (max-width: 324px) and (min-width: 253px) {
+  .customBtn_morePadding {
+    border-radius: 50px;
+    padding-left: 21vw;
+    padding-right: 21vw;
+  }
+
+  .para_mb_0 {
+    font-size: 5vw !important;
+  }
+}
+
+@media only screen and (max-width: 252px) and (min-width: 50px) {
+  .customBtn_morePadding {
+    border-radius: 50px;
+    padding-left: 21vw;
+    padding-right: 21vw;
+  }
+
+  .para_mb_0 {
+    font-size: 6vw !important;
+  }
+
+  .commonRow {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
+}
